@@ -122,7 +122,7 @@ nav>.logo>img {
   }
 }
 
-@media (max-width: 1231px) {
+@media (max-width: 1026px) {
   .courseDetils>div {
     width: 95%;
   }
