@@ -192,7 +192,7 @@ nav>.logo>img {
 
 .colorOfTheMonth {
   height: 40vh;
-  padding: 0 60px;
+  padding: 0 10px;
   margin-top: 100px;
 }
 
@@ -225,7 +225,7 @@ nav>.logo>img {
 }
 
 .courseDetils {
-  margin-top: 50px;
+  margin-top: 85px;
 }
 
 .courseDetils>div {
@@ -522,7 +522,7 @@ background-image: url('./Images/bannerTwoPhotoThree.jpg');
   .video {
     position: relative;
     width: 100%;
-    height: 90vh;
+    height: 57vh;
     background-color: rgba(0, 0, 0, 0.662);
     background-blend-mode: darken;
     background-image: url(./Images/bannerOnePhotoOne.jpg);
@@ -669,12 +669,11 @@ background-position: 0% 100%;
 
 .colorOfTheMonth {
   margin-top: 385px;
-  height: 70vh;
   justify-content: space-between;
 }
 
 .grabThisLimitedTimeOffer {
-  height: 30vh;
+  height: 18vh;
   padding: 0 70px;
 }
 
@@ -694,15 +693,20 @@ background-position: 0% 100%;
   margin: auto;
   margin-top: 30px !important;
   width: 90%;
+  height: 40vh;
+}
+
+.mugPhoto {
+  height: 40vh;
 }
 
 .secondLastBannerLeft {
   width: 50% !important;
 }
 
-.colorOfTheMonth {
+colorOfTheMonth {
   padding: 0;
-  margin-top: 385px;
+  margin-top: 330px;
 }
 
 .lastBannerLeft {
@@ -727,12 +731,20 @@ background-position: 0% 100%;
   width: 100% !important;
 }
 
-.bannerOnePhotoTwoRight button {
-  width: 15% !important;
+.bannerOnePhotoTwoRight>button {
+  width: 26% !important;
 }
 
-.bannerOnePhotoTwoRight button {
+.underLastBannerRight>button{
+  width: 50% !important;
+}
+
+.underLastBannerLeft>button{
   width: 18% !important;
+}
+
+.secondLastBannerLeft>button {
+  width: 35% !important;
 }
 
 .lastBannerRight {
@@ -798,7 +810,7 @@ background-position: 0% 100%;
 }
 
 .colorOfTheMonth {
-  height: 66vh;
+  height: 36vh;
 }
 
 .grabThisLimitedTimeOffer>button {
@@ -839,7 +851,7 @@ background-position: 0% 100%;
 }
 
 .mugPhoto {
-  height: 65vh;
+  height: 40vh;
   margin-right: 20px;
 }
 
@@ -945,7 +957,7 @@ background-position: 0% 100%;
 .bannerOnePhotoZero{
   background-image: url('./Images/bannerOnePhotoZero.jpg');
   background-size: cover;
-  height: 45vh;
+  height: 30vh;
 }
 
 #btn {
@@ -955,7 +967,7 @@ background-position: 0% 100%;
 .bannerOnePhotoOne {
   width: 25%;
   background-image: url('./Images/bannerOnePhotoOne.jpg');
-  height: 45vh;
+  height: 30vh;
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -963,7 +975,7 @@ background-position: 0% 100%;
 
 .bannerOnePhotoTwo {
   width: 100%;
-  height: 65vh;
+  height: 30vh;
   text-align: center;
   background-size: cover;
   background-position: 50% 10%;
@@ -979,12 +991,20 @@ background-position: 0% 100%;
 }
 
 .bannerTwoPhotoOne {
-  height: 90vh;
+  height: 50vh;
 }
 
 .bannerOnePhotoTwoRight>button {
-  width: 50% !important;
+  width: 55% !important;
   margin: auto;
+}
+
+.bannerOnePhotoTwoRight h2 {
+  text-align: left;
+}
+
+.underLastBannerLeft>button {
+  width: 50% !important;
 }
 
 .bannerOnePhotoTwoRight h2 {
@@ -997,15 +1017,15 @@ background-position: 0% 100%;
 }
 
 .bannerTwoPhotoTwo {
-  height: 55vh;
+  height: 33vh;
 }
 
 .bannerTwoPhotoThree {
-  height: 60vh;
+  height: 33vh;
 }
 
 .bannerTwoPhotoFour{
-  height: 40vh;
+  height: 30vh;
 }
 
 .colorOfTheMonth {
@@ -1013,7 +1033,8 @@ background-position: 0% 100%;
   text-align: center;
   flex-direction: column-reverse;
   padding: 0 10px;
-  margin-top: 40px;
+  margin-top: 0;
+  gap: 40px;
 }
 
 .colorOfTheMonth>div{
@@ -1022,7 +1043,7 @@ background-position: 0% 100%;
 
 .colorOfTheMonthLeft {
   background-image: url(./Images/colorOfTheMonthImg.png);
-  height: 50vh;
+  height: 30vh;
   background-size: contain;
   background-position: 50% 50%;
 }
@@ -1068,7 +1089,7 @@ background-position: 0% 100%;
 }
 
 .video {
-  height: 45vh;
+  height: 25vh;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -1092,8 +1113,9 @@ background-position: 0% 100%;
 
 .secondLastBanner {
   width: 100%;
-  margin-top: 30px !important;
+  margin-top: 70px !important;
   margin-bottom: 0 !important;
+  height: 73vh;
 }
 
 .mugPhoto {
@@ -1138,4 +1160,40 @@ background-position: 0% 100%;
   font-size: 14px;
   text-align: center;
 }
+}
+
+@media(max-width: 320px){
+  #btn {
+    width: 45%;
+}
+
+.bannerOnePhotoTwoRight>button {
+  width: 70% !important;
+  margin: auto;
+}
+
+.bannerTwoPhotoOne>button {
+  width: 55% !important;
+}
+
+.colorOfTheMonthLeft {
+  height: 29vh;
+}
+
+.grabThisLimitedTimeOffer>button {
+  width: 38% !important;
+}
+
+.video>h5 {
+  bottom: 19px;
+}
+
+.secondLastBannerLeft>button {
+  width: 50% !important;
+}
+
+.secondLastBanner {
+  height: 67vh;
+}
+
 }
